@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html id="top">
+<head>
+    //Maycon Dantas De Oliveira
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Css</title>
+    <style type="text/css">
+     
+    html{
+        scroll-behavior: smooth;
+
+    }
+    h2{
+        color:aliceblue;
+    }
+
+    a{
+ display: inline-block;
+ width:auto;
+ text-decoration: none;
+ font-size: 1.3em;
+
+}
+nav, scroll-container{
+display: block;
+margin:  auto;
+text-align: center;
+
+}
+nav{
+width: 600px;
+padding: 5px;
+border: 1px solid red;
+background-color: red;
+color: white;
+
+}
+scroll-container{
+width: 800px;
+height: auto;
+position: relative;
+
+
+
+}
+scroll-page{
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+font-size: 2em;
+margin: 15px;
+
+}scroll-pagegf{
+    border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+font-size: 2em;
+margin: 15px;
+background-color: red;
+color: aliceblue;
+}scroll-pageff{
+    border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+font-size: 2em;
+margin: 15px;
+background-color: black;
+color: red;
+
+}
+#id{
+  top: 700px;
+  color: red;
+}
+
+#topo{
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    color: red;
+}
+</style>
+
+</head>
+<body>
+
+    <nav>
+    <a href="#page-1" >Curiosidade 01</a>
+    <a href="#page-2">Curiosidade 02</a>
+    <a href="#page-3">Curiosidade 03</a>
+    </nav>
+    <scroll-container>
+        <img src="img/ima.png" height="100%">
+        <scroll-pagegf id="page-1">
+        
+        <h2 class=>Curiosidade 01</h2> <hr>
+        O São Paulo é o mais jovem entre os grandes clubes do estado. Corinthians, Santos e Palmeiras foram fundados
+        respectivamente, em 1910, 1912 e 1914. Apesar de jovem, o clube conquistou inúmeras glórias ao longo de sua história,
+        tornando-se um dos times mais requisitados nos bolões informais e nas apostas online. Aliás, para quem deseja fazer previsões de jogos, 
+        vale a pena apostar usando a Dafabet Brasil, seja no vencedor da partida, saldo de gols ou placar exato. Também acha que o time vai vencer 
+        o campeonato? Trajetória para isso o SPFC tem, não é mesmo?
+        </scroll-pagegf>
+    <scroll-page id="page-2">
+        <h3>Curiosidade 02</h3> <hr>
+        Apesar de ser o mais jovem entre os clubes paulistas, o SPFC é o time com maiores títulos internacionais: três Copas Libertadores, 
+        uma Supercopa Libertadores, três Mundiais, uma Copa Sul-Americana, uma Conmebol, uma Copa Master da Conmebol eduas Recopas 
+        Sul-Americanas .A última conquista internacional do Tricolor foi a Copa Sul-Americana de 2012.
+        <a href="#page-1">Seção 01</a>
+    </scroll-page>
+    <scroll-pageff id="page-3">
+        <h4 >Curiosidade 03</h4> <hr>
+        sonho de construir um estádio próprio tomou corpo em 4 de agosto de 1952, quando o São Paulo recebeu a doação de um terreno
+        no então isolado bairro do Morumbi. O Estádio Cícero Pompeu de Toledo, o famoso Estádio do Morumbi, foi desenhado pelo arquiteto
+        Vilanova Artigas e inaugurado em 2 de outubro de 1960 antes mesmo de sua finalização. A última vitória do São Paulo jogando em casa
+        , antes do jogo contra a Chapecoense, ocorreu em 27 de abril deste ano, contra o Botafogo.
+ 
+        
+        <a href="#page-2">Seção 02</a>
+        <a id="topo"  href="#top">Home</a>
+    </scroll-pageff>
+
+    </scroll-container>
+</body>
+</html>
